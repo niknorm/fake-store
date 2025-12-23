@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    
+}
+.navigation {
+    display: flex;
+    gap: 25px;
+}
