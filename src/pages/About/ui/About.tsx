@@ -1,7 +1,8 @@
+import { Products } from "../../../entities/productCard/ui/productCard"
 
 function About() {
   return (
-    <div>About</div>
+    <Products />
   )
 }
 

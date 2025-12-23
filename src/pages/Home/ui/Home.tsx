@@ -1,17 +1,22 @@
-import { ButtonStart } from "../../../shared/ui/ButtonStart/ButtonStart";
+import ButtonAbout from "../../../features/Buttons/ui/ButtonAbout";
+import ButtonStart from "../../../features/Buttons/ui/ButtonStart";
+import styles from "./Home.module.css";
 
 export const Home = () => {
   return (
     <>
-      <div>
-        <h1>Make your Outfit wonderful</h1>
-        <p>
+      <div className={styles.wrapper}>
+        <h1 className={styles.mainText}>Make your Outfit wonderful</h1>
+        <p className={styles.textCenter}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
-          soluta iusto expedita veniam asperiores, cumque id, tempora numquam
+          soluta iusto <br />expedita veniam asperiores, cumque id, tempora numquam
           voluptatibus.
         </p>
       </div>
-      <ButtonStart />
+      <div className={styles.buttons}>
+        <ButtonStart />
+        <ButtonAbout />
+      </div>
     </>
   );
 };

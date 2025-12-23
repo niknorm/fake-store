@@ -1,5 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import styles from './Header.module.css'
+import ButtonSignIn from '../../../features/Buttons/ui/ButtonSignIn'
+import ButtonRegister from '../../../features/Buttons/ui/ButtonRegister'
 
 export const Header = () => {
     return (
@@ -9,19 +11,19 @@ export const Header = () => {
             </Link>
             <nav className={styles.navigation}>
                 <NavLink to={'/'}>
-                    Home
+                    <p>Home</p>
                 </NavLink>
                 <NavLink to={'/products'}>
-                    Products
+                    <p>Products</p>
                 </NavLink>
                 <NavLink to={'/about'}>
-                    About
+                    <p>About</p>
                 </NavLink>
             </nav>
             <div className={styles.auth}>
                 <button>white</button>
-                <button>Вход</button>
-                <button>Регистрация</button>
+                <ButtonSignIn />
+                <ButtonRegister />
             </div>
         </header>
     )
