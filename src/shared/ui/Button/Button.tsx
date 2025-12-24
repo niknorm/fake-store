@@ -1,3 +1,4 @@
+import styles from './Button.module.css'
 
 
 interface Props{
@@ -8,6 +9,6 @@ interface Props{
 export const Button = ({text, onClick, className}: Props ) => {
     console.log(className)
     return (
-        <button onClick={onClick} className={className}>{text}</button>
+        <button onClick={onClick} className={`${styles.base} ${className ?? ''}`} >{text}</button>
     )
 }

@@ -1,9 +1,10 @@
 import { Link, NavLink } from 'react-router-dom'
 import styles from './Header.module.css'
-import ButtonSignIn from '../../../features/Buttons/ui/ButtonSignIn'
-import ButtonRegister from '../../../features/Buttons/ui/ButtonRegister'
+import { Button } from '../../../shared/ui/Button/Button'
+import { useNotFoundPage } from '../../../shared/ui/Button/hooks/useNotFound'
 
 export const Header = () => {
+    const handleClick = useNotFoundPage()
     return (
         <header className={styles.header}>
             <Link to={'/'}>
@@ -21,9 +22,9 @@ export const Header = () => {
                 </NavLink>
             </nav>
             <div className={styles.auth}>
-                <button>white</button>
-                <ButtonSignIn />
-                <ButtonRegister />
+                 <span className={styles.toggle}>☾</span>
+                <Button text={'Вход'} className={'signIn'} onClick={handleClick} />
+                <Button text={'Регистрация'} className={'signIn'} onClick={handleClick}/>
             </div>
         </header>
     )

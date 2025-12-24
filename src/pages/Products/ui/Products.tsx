@@ -1,6 +1,8 @@
+import { ProductsList } from "../../../widgets/catalog/ui/ProductsList"
+
 
 export const Products = () => {
     return (
-        <div>zalupa</div>
+        <ProductsList />
     )
 }

@@ -1,8 +1,11 @@
-import ButtonAbout from "../../../features/Buttons/ui/ButtonAbout";
-import ButtonStart from "../../../features/Buttons/ui/ButtonStart";
+import { useAbout } from "../../../shared/ui/Button/hooks/useAbout";
+import { useStartShopping } from "../../../shared/ui/Button/hooks/useStartShopping";
+import { Button } from "../../../shared/ui/Button/Button";
 import styles from "./Home.module.css";
 
 export const Home = () => {
+  const startShopping = useStartShopping()
+  const learnMore = useAbout()
   return (
     <>
       <div className={styles.wrapper}>
@@ -14,8 +17,8 @@ export const Home = () => {
         </p>
       </div>
       <div className={styles.buttons}>
-        <ButtonStart />
-        <ButtonAbout />
+        <Button className={styles.start} text={'start shopping'} onClick={startShopping}/>
+        <Button className={styles.about} text={'learn more'} onClick={learnMore} />
       </div>
     </>
   );

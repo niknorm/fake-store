@@ -1,8 +1,8 @@
-import { Products } from "../../../entities/productCard/ui/productCard"
+
 
 function About() {
   return (
-    <Products />
+   <div></div>
   )
 }
 

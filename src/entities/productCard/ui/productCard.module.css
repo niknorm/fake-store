@@ -1,0 +1,59 @@
+
+.wrapper {
+  border: 1px solid;
+  width: 25%;
+  border-radius: 15px;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.image {
+  width: 80%;
+  border-radius: 10%;
+  
+}
+
+.title {
+ /*  */
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+}
+
+.category {
+    padding-left: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.buttonAdd {
+    border-radius: 25px;
+    width: 40%;
+    background-color: rgb(104, 0, 190);
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrapperCategory {
+    padding-left: 8%;
+}
