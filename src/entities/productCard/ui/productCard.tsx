@@ -1,6 +1,6 @@
 import { useAddToCart } from "../../cart/model/useAddToCart";
 import type { Products } from "../model/Products";
-import styles from "./productCard.module.css";
+import styles from "./ProductCard.module.css";
 
 interface Props {
   product: Products;
