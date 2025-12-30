@@ -1,1 +1,1 @@
-export { ProductsCard } from './ProductCard.tsx';
+export { ProductsCard } from './ProductCard';

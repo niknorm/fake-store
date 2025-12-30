@@ -1,5 +1,5 @@
 import { useGetProductsQuery } from "../../../entities/productCard/api/productApi";
-import { ProductsCard } from "../../../entities/productCard/ui/ProductCard.tsx";
+import { ProductsCard } from "../../../entities/productCard/ui";
 import styles from "./ProductsList.module.css";
 import { useSearch } from "../../../features/search/model/useSearchProduct";
 import { SearchInput } from "../../../features/search/ui/SearchInput";
