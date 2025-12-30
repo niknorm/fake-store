@@ -1,46 +1,72 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 165px;
-    background-color: rgb(23, 22, 22);
-    height: 35px;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 165px;
+  background-color: rgb(23, 22, 22);
+  height: 35px;
 }
 .header h1 {
-    color: #fff;
-    
+  color: #fff;
 }
 
 .navigation {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    padding: 8px 24px;
-    line-height: 1;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 8px 24px;
+  line-height: 1;
+  border: 1px solid;
+  border-radius: 35px;
+  border-color: grey;
+  width: 23%;
+  height: 28px;
+  font-size: 20px;
 }
 .navigation p {
-    color: #fff;
+  color: #fff;
 }
 
 .navigation a {
-    line-height: 1;
-    padding: 0;
-    display: flex;
-    align-items: center;
+  line-height: 1;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .auth {
-    display: flex;
-    gap: 35px;
+  display: flex;
+  gap: 35px;
+  align-items: center;
 }
 
 .toggle {
-    display: inline-block; 
-    font-size: 28px; 
-    padding: 10px 20px;
-    color: #fff;
-    cursor: pointer;
+  display: inline-block;
+  font-size: 28px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
 }
 
+.signIn {
+  background-color: rgb(83, 80, 85);
+  border-radius: 35px;
+  width: 120px;
+  border: none;
+  font-size: 16px;
+  height: 44px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.registration {
+  background-color: rgb(83, 80, 85);
+  border-radius: 35px;
+  width: 120px;
+  border: none;
+  font-size: 16px;
+  height: 44px;
+  cursor: pointer;
+  color: #fff;
+}

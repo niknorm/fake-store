@@ -1,8 +1,15 @@
 
 .wrapper {
-  border: 1px solid;
-  width: 25%;
-  border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 27%;
+    border-radius: 26px;
+    border-color: rgb(15, 12, 17);
 }
 
 .imageWrapper {
@@ -17,13 +24,22 @@
   
 }
 
-.title {
- /*  */
-}
+
 
 .name {
-    display: flex;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+    font-size: 26px;
+    /* display: flex;
     justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    font-size: 26px; */
 }
 
 .description {
@@ -33,11 +49,23 @@
     padding: 10px;
 }
 
+.wrapperCategory {
+    padding-left: 8%;
+    height: 60px;
+}
+
 .category {
-    padding-left: 25px;
+    display: inline-block;
     border: 1px solid;
-    border-radius: 10px;
-    width: 20%;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(220, 220, 220);
+    border-color: rgb(164, 164, 164);
+    
 }
 
 .bottom {
@@ -48,12 +76,11 @@
 
 .buttonAdd {
     border-radius: 25px;
-    width: 40%;
-    background-color: rgb(104, 0, 190);
+    border: none;
+    width: 50%;
+    background-color: rgb(83, 80, 85);
     color: #fff;
     cursor: pointer;
 }
 
-.wrapperCategory {
-    padding-left: 8%;
-}
+

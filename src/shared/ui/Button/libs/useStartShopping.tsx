@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 export const useStartShopping = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
 
-    return () => navigate('/products')
-}
+  return () => navigate("/products");
+};

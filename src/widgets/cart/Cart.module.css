@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 90px;
+  flex-flow: row nowrap;
+  gap: 90px;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  background-color: rgb(201, 201, 200);
+  border-radius: 35px;
+  width: 80vh;
+  gap: 35px;
+  padding-right: 16px;
+}
+
+.cartList {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 20%;
+  border-radius: 25px;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 25%;
+  align-items: center;
+  border-radius: 35px;
+  padding: 10px;
+}
+
+.deleteButton {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 25px;
+}

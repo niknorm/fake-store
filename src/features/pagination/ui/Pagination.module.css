@@ -1,0 +1,19 @@
+.arrow {
+    display: inline-block;
+    line-height: 35px;
+    font-size: 42px;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+    border-radius: 35px;
+    border: none;
+    
+}
+
+.togglePages {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    height: 100px;
+}

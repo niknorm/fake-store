@@ -1,5 +1,5 @@
-import { useAbout } from "../../../shared/ui/Button/hooks/useAbout";
-import { useStartShopping } from "../../../shared/ui/Button/hooks/useStartShopping";
+import { useAbout } from "../../../shared/ui/Button/libs/useAbout";
+import { useStartShopping } from "../../../shared/ui/Button/libs/useStartShopping";
 import { Button } from "../../../shared/ui/Button/Button";
 import styles from "./Home.module.css";
 

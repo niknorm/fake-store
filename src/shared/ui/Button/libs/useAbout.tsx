@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 export const useAbout = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
 
-    return () => navigate('/about')
-}
+  return () => navigate("/about");
+};
